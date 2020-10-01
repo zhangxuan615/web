@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.container {
+  width: 70%;
+  height: 50%;
+  position: relative;
+  margin: 10% auto 0;
+}
+.container .list {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+}
+.container .list .item {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  font-size: 50px;
+  text-align: center;
+}
+.container .list .item:nth-child(1) {
+  background-color: red;
+}
+.container .list .item:nth-child(2) {
+  background-color: blue;
+}
+.container .list .item:nth-child(3) {
+  background-color: pink;
+}
+.container .list .item:nth-child(4) {
+  background-color: black;
+}
+.container .list .item:nth-child(5) {
+  background-color: orange;
+}
+.container .btn {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+.container .left-btn {
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.container .right-btn {
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
